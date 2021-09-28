@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MapuaGamingSociety/static/css/main.a6e8decc.chunk.css",
+    "main.css": "/MapuaGamingSociety/static/css/main.979b41b4.chunk.css",
     "main.js": "/MapuaGamingSociety/static/js/main.4ba9889d.chunk.js",
     "main.js.map": "/MapuaGamingSociety/static/js/main.4ba9889d.chunk.js.map",
     "runtime-main.js": "/MapuaGamingSociety/static/js/runtime-main.5d7050b4.js",
@@ -12,7 +12,7 @@
     "static/js/3.f417e4c6.chunk.js.map": "/MapuaGamingSociety/static/js/3.f417e4c6.chunk.js.map",
     "index.html": "/MapuaGamingSociety/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/MapuaGamingSociety/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.a6e8decc.chunk.css.map": "/MapuaGamingSociety/static/css/main.a6e8decc.chunk.css.map",
+    "static/css/main.979b41b4.chunk.css.map": "/MapuaGamingSociety/static/css/main.979b41b4.chunk.css.map",
     "static/js/2.e20d248c.chunk.js.LICENSE.txt": "/MapuaGamingSociety/static/js/2.e20d248c.chunk.js.LICENSE.txt",
     "static/media/acadarena.aea3c7de.png": "/MapuaGamingSociety/static/media/acadarena.aea3c7de.png",
     "static/media/ares.61f93385.png": "/MapuaGamingSociety/static/media/ares.61f93385.png",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.5d7050b4.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.e20d248c.chunk.js",
-    "static/css/main.a6e8decc.chunk.css",
+    "static/css/main.979b41b4.chunk.css",
     "static/js/main.4ba9889d.chunk.js"
   ]
 }
