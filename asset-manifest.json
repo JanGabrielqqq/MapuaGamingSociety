@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MapuaGamingSociety/static/css/main.33f1ae43.chunk.css",
-    "main.js": "/MapuaGamingSociety/static/js/main.7e0dbb26.chunk.js",
-    "main.js.map": "/MapuaGamingSociety/static/js/main.7e0dbb26.chunk.js.map",
+    "main.js": "/MapuaGamingSociety/static/js/main.f3956823.chunk.js",
+    "main.js.map": "/MapuaGamingSociety/static/js/main.f3956823.chunk.js.map",
     "runtime-main.js": "/MapuaGamingSociety/static/js/runtime-main.5d7050b4.js",
     "runtime-main.js.map": "/MapuaGamingSociety/static/js/runtime-main.5d7050b4.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/MapuaGamingSociety/static/css/2.ae9e5f60.chunk.css",
@@ -47,6 +47,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.b5974f89.chunk.js",
     "static/css/main.33f1ae43.chunk.css",
-    "static/js/main.7e0dbb26.chunk.js"
+    "static/js/main.f3956823.chunk.js"
   ]
 }
