@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MapuaGamingSociety/static/css/main.33f1ae43.chunk.css",
-    "main.js": "/MapuaGamingSociety/static/js/main.f71e5c89.chunk.js",
-    "main.js.map": "/MapuaGamingSociety/static/js/main.f71e5c89.chunk.js.map",
+    "main.css": "/MapuaGamingSociety/static/css/main.a6e8decc.chunk.css",
+    "main.js": "/MapuaGamingSociety/static/js/main.f8e76161.chunk.js",
+    "main.js.map": "/MapuaGamingSociety/static/js/main.f8e76161.chunk.js.map",
     "runtime-main.js": "/MapuaGamingSociety/static/js/runtime-main.5d7050b4.js",
     "runtime-main.js.map": "/MapuaGamingSociety/static/js/runtime-main.5d7050b4.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/MapuaGamingSociety/static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.d3e44fc0.chunk.js": "/MapuaGamingSociety/static/js/2.d3e44fc0.chunk.js",
-    "static/js/2.d3e44fc0.chunk.js.map": "/MapuaGamingSociety/static/js/2.d3e44fc0.chunk.js.map",
+    "static/js/2.e20d248c.chunk.js": "/MapuaGamingSociety/static/js/2.e20d248c.chunk.js",
+    "static/js/2.e20d248c.chunk.js.map": "/MapuaGamingSociety/static/js/2.e20d248c.chunk.js.map",
     "static/js/3.f417e4c6.chunk.js": "/MapuaGamingSociety/static/js/3.f417e4c6.chunk.js",
     "static/js/3.f417e4c6.chunk.js.map": "/MapuaGamingSociety/static/js/3.f417e4c6.chunk.js.map",
     "index.html": "/MapuaGamingSociety/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/MapuaGamingSociety/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.33f1ae43.chunk.css.map": "/MapuaGamingSociety/static/css/main.33f1ae43.chunk.css.map",
-    "static/js/2.d3e44fc0.chunk.js.LICENSE.txt": "/MapuaGamingSociety/static/js/2.d3e44fc0.chunk.js.LICENSE.txt",
+    "static/css/main.a6e8decc.chunk.css.map": "/MapuaGamingSociety/static/css/main.a6e8decc.chunk.css.map",
+    "static/js/2.e20d248c.chunk.js.LICENSE.txt": "/MapuaGamingSociety/static/js/2.e20d248c.chunk.js.LICENSE.txt",
     "static/media/acadarena.aea3c7de.png": "/MapuaGamingSociety/static/media/acadarena.aea3c7de.png",
     "static/media/ares.61f93385.png": "/MapuaGamingSociety/static/media/ares.61f93385.png",
     "static/media/HomePage.module.scss": "/MapuaGamingSociety/static/media/bg-1.ab4e7858.jpg",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.5d7050b4.js",
     "static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.d3e44fc0.chunk.js",
-    "static/css/main.33f1ae43.chunk.css",
-    "static/js/main.f71e5c89.chunk.js"
+    "static/js/2.e20d248c.chunk.js",
+    "static/css/main.a6e8decc.chunk.css",
+    "static/js/main.f8e76161.chunk.js"
   ]
 }
