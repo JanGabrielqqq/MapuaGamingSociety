@@ -1,0 +1,37 @@
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h3 {
+    padding-top: 20px;
+    font-family: "Press Start 2P", cursive;
+    // padding-left: 10px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  p {
+    color: rgb(202, 202, 202);
+    text-shadow: 0 0 10px black;
+    text-align: right;
+    font-family: "Gemunu Libre", sans-serif;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .team {
+    img {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .team {
+    img {
+      width: 150px;
+    }
+  }
+}

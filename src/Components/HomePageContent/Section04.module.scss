@@ -1,0 +1,70 @@
+.Section04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //   text-align: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P", cursive;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 20px 0;
+    line-height: 35px;
+  }
+  p {
+    font-size: 25px;
+    color: rgb(202, 202, 202);
+    text-shadow: 0 0 10px black;
+    font-family: "Gemunu Libre", sans-serif;
+  }
+}
+.aTag {
+  align-self: flex-start;
+  text-align: center;
+  height: auto;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  text-shadow: 0 0 10px black;
+  background-color: rgb(60, 34, 116);
+  padding: 20px;
+  border: none;
+  margin-top: 50px;
+  //   margin-left: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: translateX(-2%) translateY(-2%);
+    cursor: pointer;
+  }
+}
+@media (min-width: 500px) {
+  .Section04 {
+    width: 40%;
+    .aTag {
+      margin-left: 20px;
+      align-self: flex-start;
+      width: 200px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .Section04 {
+    width: 90%;
+    text-align: center;
+    h1 {
+      font-size: 24px;
+    }
+
+    .aTag {
+      margin-left: 0;
+      align-self: center;
+      width: 90%;
+    }
+  }
+}

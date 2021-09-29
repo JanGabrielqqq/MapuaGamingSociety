@@ -1,0 +1,75 @@
+.Section01 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  .Section01Content {
+    padding: 30px;
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    h1 {
+      text-align: center;
+      line-height: 20px;
+      font-size: 25px;
+      justify-self: center;
+      font-family: "Press Start 2P", cursive;
+      color: white;
+      text-shadow: 0 0 10px black;
+    }
+    p {
+      font-size: 15px;
+      line-height: 20px;
+      font-family: "Gemunu Libre", sans-serif;
+      color: rgb(202, 202, 202);
+      text-shadow: 0 0 10px black;
+    }
+    &:nth-child(odd) {
+      background-color: rgba(198, 0, 255, 0.4);
+    }
+    &:nth-child(even) {
+      background-color: rgba(102, 54, 204, 0.4);
+    }
+    .pFlex {
+      display: flex;
+      justify-content: space-between;
+      align-items: space-between;
+      flex-direction: column;
+      height: 100%;
+      hr {
+        border: none;
+        border-bottom: 1px solid white;
+        width: 25%;
+        box-shadow: 0 0 10px 2px white;
+        align-self: center;
+      }
+      p {
+        // margin: 20px;
+        padding: 20px 10px;
+        align-self: center;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .Section01 {
+    padding: 8%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Section01 {
+    padding: 2%;
+    .Section01Content {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 3fr;
+    }
+  }
+}

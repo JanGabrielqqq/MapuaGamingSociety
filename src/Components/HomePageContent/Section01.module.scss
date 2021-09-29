@@ -1,0 +1,80 @@
+.Section01 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 120vh;
+  width: 100%;
+  // position: relative;
+  // right: 180px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  .Section01Content {
+    text-align: left;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 30px;
+      font-family: "Press Start 2P", cursive;
+      color: white;
+      text-shadow: 0 0 10px black;
+      padding-left: 10px;
+
+      padding: 20px 0;
+      line-height: 35px;
+    }
+    p {
+      font-family: "Gemunu Libre", sans-serif;
+      color: rgb(202, 202, 202);
+      text-shadow: 0 0 10px black;
+      text-align: right;
+    }
+  }
+  button {
+    height: auto;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    text-shadow: 0 0 10px black;
+    background-color: rgb(60, 34, 116);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    &:hover {
+      box-shadow: 5px 5px 5px black;
+      transform: translateX(-2%) translateY(-2%);
+      cursor: pointer;
+    }
+    // box-shadow: 5px 5px 5px black;
+  }
+}
+
+@media (min-width: 500px) {
+  .Section01 {
+    padding-left: 10%;
+    padding-right: 40%;
+    button {
+      margin-top: 45px;
+      margin-left: 20px;
+      align-self: flex-start;
+      width: 180px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .Section01 {
+    padding: 5%;
+    .Section01Content {
+      text-align: left;
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        text-align: right;
+      }
+      button {
+        margin-left: 0;
+        align-self: center;
+        width: 90%;
+      }
+    }
+  }
+}

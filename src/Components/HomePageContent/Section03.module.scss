@@ -1,0 +1,89 @@
+.Section03 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P", cursive;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    // padding: 20px 0;
+    margin-top: 40px;
+    line-height: 35px;
+  }
+  .teamShowcase {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      animation: display 200ms forwards;
+    }
+  }
+  .games {
+    display: flex;
+    align-items: center;
+
+    height: 30vh;
+    .imageDiv {
+      //   display: flex;
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      box-shadow: 0 2px 5px black;
+
+      border-radius: 50%;
+      //   background-color: rgb(24, 24, 24);
+      img {
+        align-self: center;
+        justify-self: center;
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;
+        transition: all 0.2s ease-in;
+        border-radius: 50%;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+@keyframes display {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 500px) {
+  .games {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .Section03 {
+    h1 {
+      width: 90%;
+      font-size: 25px;
+      text-align: center;
+    }
+    .games {
+      width: 100%;
+      overflow: hidden;
+      overflow-x: scroll;
+    }
+  }
+}

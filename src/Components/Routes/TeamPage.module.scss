@@ -1,0 +1,57 @@
+.TeamPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .BackgroundDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: -10;
+  }
+  .Cover {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    img {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .TeamPage {
+    .Cover {
+      grid-template-columns: repeat(4, 1fr);
+      img {
+        width: 25%;
+        height: 100/3%;
+      }
+    }
+    .BackgroundDiv {
+      background-image: url(../../images/background/bg-3.jpg);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .TeamPage {
+    .Cover {
+      grid-template-columns: repeat(3, 1fr);
+      img {
+        height: 25%;
+        width: 100/3%;
+      }
+    }
+    .BackgroundDiv {
+      background-image: url(../../images/background/bg-3-m.jpg);
+      background-position: -50px 0px;
+    }
+  }
+}

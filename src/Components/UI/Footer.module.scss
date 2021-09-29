@@ -1,0 +1,51 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(37, 20, 75);
+  color: white;
+  padding: 20px;
+
+  .aTag {
+    background: none;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    font-size: 10px;
+    transform: none;
+    box-shadow: none;
+    font-family: "Gemunu Libre", sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .socMed {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    img {
+      opacity: 0.8;
+      width: 30px;
+      border-radius: 4px;
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    }
+  }
+  p {
+    font-size: 13px;
+    color: rgb(202, 202, 202);
+    // text-shadow: 0 0 10px black;
+    align-self: flex-end;
+    font-family: "Gemunu Libre", sans-serif;
+  }
+  .info {
+    text-align: center;
+  }
+}
